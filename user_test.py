@@ -15,7 +15,7 @@ def setUp(self):
         Set up method to run before each test cases.
         '''
         self.login_username = login_username("Ange")
-        self.password = password("")
+        self.password = password("uwimana")
 
 
 
