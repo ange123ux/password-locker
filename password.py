@@ -7,6 +7,12 @@ class User:
     self.login_username = login_username
     self.password = password
     
+ __init__ method that helps us define properties for our objects.
+
+        Args:
+        login_username: New login_username.
+        password : New password.
+
     pass
 
 class Credentials:
