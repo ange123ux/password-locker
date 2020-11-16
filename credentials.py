@@ -50,7 +50,6 @@ def main():
             login_username = input()
             print("Enter your password:")
             login_password = input()
-            # find_user = input()
             if find_user(login_userName) and find_password(login_password):
             print('\n')
             print("Welcome! To continue please choose any of the options below:")
