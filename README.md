@@ -17,7 +17,7 @@ I consider myself as someone lucky because I grew up in a family where I am the 
 * signing up to github 
 * start using it
 ## Technologies Used
-I used programing languages to code Delani Studio page such as HTML language, js language and CSS for styling.
+Python language
 
   ## PROJECTS THAT I DESIGNED
 [Delani Studio Page](https://ange123ux.github.io/delani-studio/)
