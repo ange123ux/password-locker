@@ -8,7 +8,7 @@ In the password-locker, the user is able to create an account, login in the acco
 
 ## About me
 [[ange123ux](https://github.com/ange123ux/password-locker)]
-I consider myself as someone who is lucky because I grew up in a family where I am the first person to take programming classes. Currently, I am a student in Southern New Hampshire University and I am doing Communications in Business. Having a Software Developer degree will be an added advantage to my career, and I can't wait to make that big step in my life. 
+I consider myself as someone lucky because I grew up in a family where I am the first person to take programming classes. Currently, I am a student in Southern New Hampshire University and I am doing Communications in Business. Having a Software Developer degree will be an added advantage to my career, and I can't wait to make that big step in my life. 
 
 ## Setup/Installation Requirements
 
