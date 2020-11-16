@@ -9,7 +9,7 @@ def save_user(user):
 def delete_user(user):
     user.delete_user()
 def find_user(username):
-    return User.find_by_login_username(username)
+    return User.find_by_username(username)
 def find_password(userpassword):
     return User.find_by_userpassword(userpassword)
 def display_user():
@@ -50,9 +50,9 @@ def main():
             login_username = input()
             print("Enter your password:")
             login_password = input()
-            if find_user(login_userName) and find_password(login_password):
-            print('\n')
-            print("Welcome! To continue please choose any of the options below:")
+            if find_user(username) and find_password(login_password):
+                print('\n')
+                print("Welcome! To continue please choose any of the options below:")
                 print("-"*8)
                 print("nw - Add New Account, da - Display Accounts, vw -View Account Details, dl - Delete Account Detaiils")
         account_choice = input().lower()
@@ -73,7 +73,7 @@ def main():
                             print(f"Account Name:{account.account_name}")
                     else:
                         print("invalid choice")
-                elif account_choice == "vw":
+        elif account_choice == "vw":
                     print("Enter an Account Name:")
                     account_choiceName = input()
                     if display_account_credentials():
@@ -81,18 +81,18 @@ def main():
                         print(f"Account Username:{account_choiceName.account_userName}   Password:{account_choiceName.account_password}")
                     else:
                         print(f"{account_choiceName} does not exist")
-                elif account_choice == "dl":
+        elif account_choice == "dl":
                     print("Enter Account Name:")
                     delete_acc = input()
                     if delete_account(delete_acc):
                         return delete_account(delete_acc)
                     else:
-                        print(f"{delete_acc} does not exist")
-            else:
-                print("Wrong username or password. Please try again.")
-                print('\n')
-        else:
-            print("Incorrect Option. Please choose from the ones listed")
-            print('\n')
+                        print(f"delete_account:{delete_acc} does not exist")
+                    # else:
+                    # print("Wrong username or password. Please try again.")
+                    # print('\n')
+                    # else:
+            # print("Incorrect Option. Please choose from the ones listed")
+            # print('\n')
 if __name__ == '__main__':
     main()

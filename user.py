@@ -41,6 +41,11 @@ class User:
             if user.user_name == username:
                 return user
     @classmethod
+    def find_by_username(cls,username):
+        for username in cls.user_list:
+            if username.username == username:
+                return username
+    @classmethod
     def find_by_userpassword(cls,userpassword):
         for password in cls.user_list:
             if password.password == userpassword:
@@ -66,6 +71,8 @@ class Account:
         for account in cls.account_list:
             if account.account_name == account_name:
                 return account
+            
+    
 
 
 
