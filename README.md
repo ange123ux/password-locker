@@ -2,7 +2,7 @@
 
 ### Description
 In the password-locker, the user is able to create an account, login in the account, see the accounts created, and then the user will be able to delete the account(s) created.  
-10/12th/2020.
+10/16th/2020.
 
 ### Author: Ange Uwimana
 
