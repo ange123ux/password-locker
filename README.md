@@ -20,7 +20,7 @@ I consider myself as someone lucky because I grew up in a family where I am the 
 Python language
 
   ## PROJECTS THAT I DESIGNED
-[Delani Studio Page](https://ange123ux.github.io/delani-studio/)
+<!-- [Delani Studio Page](https://ange123ux.github.io/delani-studio/) -->
 
 MIT License
 Permission is hereby granted, free of charge, to any person obtaining a copy
