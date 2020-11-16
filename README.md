@@ -1,4 +1,4 @@
-## DELANI STUDIO
+## Password-Locker
 
 ### Description
 In Delani studio, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed. Our engineers collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
