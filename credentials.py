@@ -24,7 +24,7 @@ def delete_account(user):
 def display_account_credentials():
     return Account.display_accounts()
 def find_account_credentials(account_name):
-    return Account.find_by_accountName(account_name)
+    return Account.find_by_account_name(account_name)
 def main():
     print("Enter your name")
     name = input()
@@ -78,14 +78,16 @@ def main():
                     account_choiceName = input()
                     if display_account_credentials():
                         account_choiceName = find_account_credentials(account_choiceName)
-                        print(f"Account Username:{account_choiceName.account_userName}   Password:{account_choiceName.account_password}")
+                        print(f"Account Username:{account_choiceName.account_username}   Password:{account_choiceName.account_password}")
                     else:
                         print(f"{account_choiceName} does not exist")
         elif account_choice == "dl":
                     print("Enter Account Name:")
                     delete_acc = input()
-                    if delete_account(delete_acc):
-                        return delete_account(delete_acc)
+                    delete = find_account_credentials(delete_acc)
+                    if delete:
+                        
+                        return delete_account(delete)
                     else:
                         print(f"delete_account:{delete_acc} does not exist")
                     # else:
